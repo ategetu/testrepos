@@ -1,0 +1,26 @@
+Unit testing means testing individual modules of an application in isolation (without any interaction with dependencies) to confirm that the code is doing things right.
+
+Integration testing means checking if different modules are working fine when combined together as a group.
+
+Functional testing means testing a slice of functionality in the system (may interact with dependencies) to confirm that the code is doing the right things.
+
+Functional tests are related to integration tests, however, they signify to the tests that check the entire application’s functionality with all the code running together, nearly a super integration test.
+
+Unit testing considers checking a single component of the system whereas functionality testing considers checking the working of an application against the intended functionality described in the system requirement specification. On the other hand, integration testing considers checking integrated modules in the system.
+
+Acceptance – You should test that the program works the way a user/customer expects the application to work. Acceptance tests ensure that the functionality meets business requirements.
+
+
+Unit tests are easier to write and quicker to execute. The time and effort to implement and maintain the tests increases from unit testing to functional testing as shown in the above pyramid.
+
+Example: 
+
+Let us understand these three types of testing with an oversimplified example.
+
+E.g. For a functional mobile phone, the main parts required are “battery” and “sim card”.
+
+Unit testing Example – The battery is checked for its life, capacity and other parameters. Sim card is checked for its activation.
+
+Integration Testing Example – Battery and sim card are integrated i.e. assembled in order to start the mobile phone.
+
+Functional Testing Example – The functionality of a mobile phone is checked in terms of its features and battery usage as well as sim card facilities.
